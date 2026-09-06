@@ -5,13 +5,13 @@ terraform {
       version = "5.4.0"
     }
   }
-  backend "azurerm" {
-    resource_group_name = "shri"
-    storage_account_name = "5656shri7767"
-    container_name = "preprodcontainer"
-    key = "preprod"
+  # backend "azurerm" {
+  #   resource_group_name = "shri"
+  #   storage_account_name = "5656shri7767"
+  #   container_name = "preprodcontainer"
+  #   key = "preprod"
 
-  }
+  # }
 }
 
 provider "azurerm" {
